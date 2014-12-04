@@ -41,6 +41,7 @@ public enum Symbols implements ISymbol {
     public String getPresentation() {
       return "X";
     }
-  }
+  };
 
+  public abstract String getPresentation();
 }
