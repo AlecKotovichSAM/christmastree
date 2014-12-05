@@ -76,7 +76,7 @@ public class ChristmasTreeImpl implements IChristmasTree {
 	private StringBuilder reverseExcept(StringBuilder builder, String except) {
 		StringBuilder reversed = builder.reverse();
 		String delim = new StringBuilder(newLine).reverse().toString();
-		String fixed = reversed.toString().replaceAll(delim, newLine);
+		String fixed = reversed.toString().replaceAll(delim, except);
 		return new StringBuilder(fixed);
 	}
 
