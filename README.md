@@ -1,6 +1,8 @@
 christmastree
 =============
 
+## Works under Ubuntu 12.04, Java HotSpot(TM) 1.6.0_45
+
 Christmas tree in pure JAVA and console.
 ``` bash
           *      
