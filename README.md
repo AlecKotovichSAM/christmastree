@@ -23,3 +23,5 @@ Usage :
 > java -cp christmastree-1.0-SNAPSHOT.jar com.sam_solutions.christmastree.Main 6
 
 where 6 - is tree height will output christmas tree like above
+
+Test push
